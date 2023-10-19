@@ -1,0 +1,44 @@
+body {
+    background-image: url("lab3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body { margin: 0 }
+
+.container {
+ width: 60%;
+ max-width: 1200px;
+ min-width: 900px;
+
+ margin: auto;
+}
+.image {
+    width: 15%;
+    margin-top: 48%;
+    margin-left: 42%;
+}
+header {
+    display: flex;
+    margin-left: 90%;
+}
+li {
+     list-style-type: none;
+     padding: 20px 15px;
+     color: white;
+     font-family: sans-serif;
+     font-weight: bold;
+     font-size: x-small;
+}
+.text1 {
+    font-family: Times;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.text2 {
+    font-family: 'Times New Roman';
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}

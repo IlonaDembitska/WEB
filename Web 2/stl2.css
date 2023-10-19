@@ -1,0 +1,63 @@
+body {
+    background-image: url("flower-2336287_1280-1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text1 {
+    text-align: center;
+    color: rgb(19, 63, 237);
+    font-size: 35px;
+    font-family: sans-serif;
+}
+#rectangle {
+    width: 55px;
+    height: 4px;
+    background-color: rgb(197, 103, 45);
+    margin: auto;
+}
+.text2 {
+    text-align: center;
+    color: rgb(155, 188, 218);
+    font-family: sans-serif;
+}
+.item {
+    background-color: white;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 20%;
+    border-radius: 1px; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 250px;
+    margin-right: -20%;
+    padding: 20px;
+    text-align: center;
+}
+.image {
+    width: 35%;
+    margin-bottom: 2px;
+}
+.image+br+span {
+    font-family: sans-serif;
+    color: rgb(120, 185, 140);
+    font-size: 15px;
+}
+.text3 {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+span {
+    text-decoration: underline;
+}
+footer {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    background-color: rgb(37, 164, 115);
+    padding: 1.5%;
+    margin-left: -15px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+}

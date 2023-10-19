@@ -1,0 +1,68 @@
+body {
+    background-image: url('./lab3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    display: flex;
+    margin-right: 90px;
+}
+li {
+     list-style-type: none;
+     padding: 20px 15px;
+     color: white;
+     font-family: sans-serif;
+     font-weight: bold;
+     font-size: x-small;
+}
+.image1 {
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+#image2 {
+    background-image: url("logo3.svg");
+    margin-top: -45px;
+    margin-left: 670px;
+}
+.start-a-project {
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px 0;
+    cursor: pointer;
+    color: white;
+    margin-left: 1100px;
+    margin-top: -55px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: x-small;
+   }
+.text1 {
+    text-align: center;
+    font-family: Georgia;
+    color: white;
+    font-size: 80px;
+    font-weight: 900;
+}
+.text2 {
+    text-align: center;
+    font-family: Georgia;
+    color: white;
+    font-size: 20px;
+}
+.image {
+    width: 15%;
+    margin-bottom: -190px;
+    margin-left: 1100px;
+    margin-top: 280px;
+}
+.text3 {
+    font-family: 'Times New Roman';
+    color: white;
+    text-align: left;
+    font-size: 25px;
+}
