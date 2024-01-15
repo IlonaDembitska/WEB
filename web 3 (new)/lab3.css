@@ -1,0 +1,188 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("FFTablet_1100x.progressive\ \(1\).webp");
+    overflow-x: hidden;
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .container1 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .container2 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: -100px;
+    }
+    .menu {
+      display: flex;
+      margin-top: 50px;
+      color: white;
+      font-size: 15px;
+      margin-left: 50px;
+    }
+    .hire {
+      display: none;
+    }
+    .menu b {
+      margin-right: 60px;
+    }
+    .animation {
+      width: 60px;
+      margin-top: 15px;
+    }
+    .start {
+      display: flex;
+      justify-content: center;
+      border: 2px solid rgb(255, 255, 255);
+      color: white;
+      margin-top: 50px;
+      margin-left: 330px;
+      font-size: 15px;
+      width: 200px;
+      height: 50px;
+    }
+    .forefathers {
+      display: flex;
+      justify-content: center;
+      color: white;
+      font-size: 50px;
+      margin-left: 80px;
+      letter-spacing: 40px;
+      margin-bottom: -100px;
+      margin-top: 50px;
+    }
+    .✰ {
+      display: flex;
+      justify-content: center;
+      color: white;
+      font-size: 15px;
+      margin-top: 30px;
+      margin-left: 40px;
+      letter-spacing: 7px;
+      margin-bottom: -80px;
+    }
+    .container3 {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-top: -30px;
+    }
+    .text {
+      display: flex;
+      font-size: 22px;
+      color: white;
+      line-height: 30px;
+      margin-top: 280px;
+      margin-left: 80px;
+      margin-right: 20px;
+    }
+    .img1a {
+      margin-left: 550px;
+      margin-top: 380px;
+      width: 200px;
+      height: 120px;
+    }
+    .✰1 {
+      display: none;
+    }
+    .text1 {
+      display: none;
+    }
+  }
+  @media (max-width: 1199.9px) {
+    .container {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .container1 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .container2 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: -50px;
+    }
+    .menu {
+      display: flex;
+      color: white;
+      font-size: 20px;
+      margin-left: 550px;
+      margin-top: -127px;
+    }
+    .hire {
+      color: white;
+      font-size: 20px;
+    }
+    .menu b {
+      margin-right: 20px;
+    }
+    .animation {
+      display: none;
+    }
+    .start {
+      display: none;
+    }
+    .forefathers {
+      display: none;
+    }
+    .✰ {
+      display: none;
+    }
+    .✰1 {
+      display: flex;
+      justify-content: center;
+      color: white;
+      font-size: 20px;
+      letter-spacing: 5px;
+      margin-bottom: -340px;
+    }
+    .container3 {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    .text {
+      display: none;
+    }
+    .container4 {
+      display: flex;
+      justify-content: center;
+    }
+    .text1 {
+      display: flex;
+      font-size: 30px;
+      color: white;
+      line-height: 40px;
+      margin-top: 157px;
+      text-align: center;
+    }
+    .img1 {
+      display: flex;
+      justify-content: center;
+    }
+    .img1a {
+      margin-top: 205px;
+      width: 200px;
+      height: 120px;
+    }
+  }
